@@ -1,0 +1,26 @@
+{
+  "name": "arduino-web-app",
+  "version": "1.0.0",
+  "description": "A web application to control Arduino sensors and record video using the browser's camera.",
+  "main": "src/backend/server.js",
+  "scripts": {
+    "start": "node src/backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serialport": "^9.2.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "arduino",
+    "web",
+    "application",
+    "video",
+    "sensors"
+  ],
+  "author": "",
+  "license": "ISC"
+}
